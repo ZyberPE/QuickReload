@@ -1,0 +1,12 @@
+name: QuickReload
+main: QuickReload\Main
+version: 1.0.0
+api: 5.0.0
+commands:
+  reload:
+    description: Reload the server without restarting
+    usage: "/reload"
+    permission: quickreload.reload
+permissions:
+  quickreload.reload:
+    default: op
